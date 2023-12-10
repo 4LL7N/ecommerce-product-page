@@ -40,12 +40,12 @@ function Head(props: {
       <div className="flex items-center">
         <img
           className="w-[22px] h-[20px] mr-[22.18px] lg:mr-[46px] cursor-pointer	"
-          src="/public/images/icon-cart.svg"
+          src="/images/icon-cart.svg"
           onClick={() => props.setCart(!props.cart)}
         />
         <img
           className="rounded-[50%] w-[24px] h-[24px] lg:w-[50px] lg:h-[50px] lg:hover:border-[2px] lg:hover:border-solid lg:hover:border-[#FF7E1B] cursor-pointer	"
-          src="/public/images/image-avatar.png"
+          src="/images/image-avatar.png"
         />
         {props.products.length != 0?
         <div className="flex justify-center items-center w-[19px] h-[13px] rounded-[6.5px] bg-[#FF7E1B] text-[#FFF] text-[10px] font-bold absolute top-[16px] right-[64px] lg:top-[38px] lg:right-[255px]" >{props.products.length}</div>:
