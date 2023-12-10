@@ -29,7 +29,7 @@ function Head(props: {
         />
         <img
           className="w-[137.5px] h-[20px] ml-[16px] lg:ml-0"
-          src="/public/images/logo.svg"
+          src="/images/logo.svg"
         />
         <div className="lg:flex lg:justify-between lg:w-[397px] lg:ml-[56.5px]">
           {props.MenuHeads.map((item, index) => {
