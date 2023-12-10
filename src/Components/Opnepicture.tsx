@@ -27,19 +27,19 @@ function Openpicture(props: {
         } lg:flex-col lg:items-end lg:absolute lg:top-[60px] lg:left-[470px] lg:z-300 lg:opacity-100 `}
       >
         <div
-          className={`lg:w-[20px] lg:h-[20px] lg:bg-no-repeat lg:bg-cover lg:bg-[url("/public/images/icon-close-white.svg")] lg:hover:bg-[url("/public/images/icon-close-orange.svg")] lg:mb-[24px]`}
+          className={`lg:w-[20px] lg:h-[20px] lg:bg-no-repeat lg:bg-cover lg:bg-[url("/images/icon-close-white.svg")] lg:hover:bg-[url("/images/icon-close-orange.svg")] lg:mb-[24px]`}
           onClick={() => props.setpictureOpen(false)}
         />
         <Images pictures={props.pictures} pictureswitch={props.openedPictureSwitch}>
           <div className="w-[56px] h-[56px] rounded-[50%] bg-[#FFF] flex items-center justify-center lg:relative lg:top-center lg:left-[-20px]" onClick={() => ChangePicture(false)} >
             <div
-              className='w-[8px] h-[12px] lg:bg-no-repeat lg:bg-cover lg:bg-[url("/public/images/icon-previous.svg")] lg:hove:bg-[url("/public/images/icon-previous.svg")] '
+              className='w-[8px] h-[12px] lg:bg-no-repeat lg:bg-cover lg:bg-[url("/images/icon-previous.svg")] lg:hove:bg-[url("/images/icon-previous.svg")] '
               
             />
           </div>
           <div className="w-[56px] h-[56px] rounded-[50%] bg-[#FFF] flex items-center justify-center lg:relative lg:top-center lg:right-[-20px]" onClick={() => ChangePicture(true)}>
             <div
-              className='w-[8px] h-[12px] lg:bg-no-repeat lg:bg-cover lg:bg-[url("/public/images/icon-next.svg")] lg:hove:bg-[url("/public/images/icon-next.svg")] '
+              className='w-[8px] h-[12px] lg:bg-no-repeat lg:bg-cover lg:bg-[url("/images/icon-next.svg")] lg:hove:bg-[url("/images/icon-next.svg")] '
               
             />
           </div>

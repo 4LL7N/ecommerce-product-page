@@ -50,14 +50,14 @@ function Product(props: {
           <div className="w-[40px] h-[40px] rounded-[50%] bg-[#FFF] flex items-center justify-center lg:hidden">
             <img
               className="w-[8px] h-[12px] "
-              src="/public/images/icon-previous.svg"
+              src="/images/icon-previous.svg"
               onClick={() => ChangePicture(false)}
             />
           </div>
           <div className="w-[40px] h-[40px] rounded-[50%] bg-[#FFF] flex items-center justify-center lg:hidden">
             <img
               className="w-[8px] h-[12px] "
-              src="/public/images/icon-next.svg"
+              src="/images/icon-next.svg"
               onClick={() => ChangePicture(true)}
             />
           </div>
@@ -102,7 +102,7 @@ function Product(props: {
           <div className="flex items-center justify-around w-[327px] h-[56px] bg-[#F6F8FD] rounded-[10px] mt-[24px] lg:w-[157px]">
             <img
               className="w-[12px] h-[3.332px] cursor-pointer	"
-              src="/public/images/icon-minus.svg"
+              src="/images/icon-minus.svg"
               onClick={() => ChangeProductCount(false)}
             />
             <p className="text-[#1D2026] text-[16px] font-bold">
@@ -110,7 +110,7 @@ function Product(props: {
             </p>
             <img
               className="w-[12px] h-[12px] cursor-pointer	"
-              src="/public/images/icon-plus.svg"
+              src="/images/icon-plus.svg"
               onClick={() => ChangeProductCount(true)}
             />
           </div>
@@ -121,7 +121,7 @@ function Product(props: {
           >
             <img
               className="w-[17.457px] h-[16px] opacity-100 "
-              src="/public/images/icon-cart-white.svg"
+              src="/images/icon-cart-white.svg"
             />
             <p className="text-[#FFF] text-[16px] font-bold">Add to cart</p>
           </button>

@@ -24,7 +24,7 @@ function Head(props: {
       <div className="flex items-center">
         <img
           className="w-[16px] h-[15px] mb-[-4px] lg:hidden"
-          src="/public/images/icon-menu.svg"
+          src="/images/icon-menu.svg"
           onClick={() => props.setMenu(true)}
         />
         <img
@@ -62,12 +62,12 @@ function Head(props: {
                         {props.products.map((item , index) => {
                             return(
                                 <div className="flex items-center justify-between w-[100%] "  >
-                                    <img className="w-[50px] h-[50px] rounded-[4px] " src="/public/images/image-product-1.jpg"/>
+                                    <img className="w-[50px] h-[50px] rounded-[4px] " src="/images/image-product-1.jpg"/>
                                     <div>
                                         <h1 className="text-[#69707D] text-[16px] leading-[26px]" >Fall Limited Edition Sneakers</h1>
                                         <span className="text-[#69707D] text-[16px] leading-[26px]" >$125.00 x {item}<a className="text-[#1D2026] text-[16px] leading-[26px] font-bold ml-[5px]"  >${125*item}.00</a></span>
                                     </div>
-                                    <img className="w-[14px] h-[16px] cursor-pointer	" src="/public/images/icon-delete.svg" onClick={() => deleteProduct(index)} />                                    
+                                    <img className="w-[14px] h-[16px] cursor-pointer	" src="/images/icon-delete.svg" onClick={() => deleteProduct(index)} />                                    
                                 </div>
                             )
                         })}
