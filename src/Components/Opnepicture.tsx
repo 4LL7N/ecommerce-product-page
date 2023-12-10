@@ -27,7 +27,7 @@ function Openpicture(props: {
         } lg:flex-col lg:items-end lg:absolute lg:top-[60px] lg:left-[470px] lg:z-300 lg:opacity-100 `}
       >
         <div
-          className={`lg:w-[20px] lg:h-[20px] lg:bg-no-repeat lg:bg-cover lg:bg-[url("/images/icon-close-white.svg")] lg:hover:bg-[url("/images/icon-close-orange.svg")] lg:mb-[24px]`}
+          className={`lg:w-[20px] lg:h-[20px] lg:bg-no-repeat lg:bg-cover lg:bg-[url("/images/icon-close.svg")] lg:hover:bg-[url("/images/icon-close-orange.svg")] lg:mb-[24px]`}
           onClick={() => props.setpictureOpen(false)}
         />
         <Images pictures={props.pictures} pictureswitch={props.openedPictureSwitch}>
