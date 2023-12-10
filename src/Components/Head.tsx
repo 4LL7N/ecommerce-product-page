@@ -45,7 +45,7 @@ function Head(props: {
         />
         <img
           className="rounded-[50%] w-[24px] h-[24px] lg:w-[50px] lg:h-[50px] lg:hover:border-[2px] lg:hover:border-solid lg:hover:border-[#FF7E1B] cursor-pointer	"
-          src={"url(/images/image-avatar.png)"} // src shevcvale
+          src='url("/images/image-avatar.png")' // src shevcvale
         />
         {props.products.length != 0?
         <div className="flex justify-center items-center w-[19px] h-[13px] rounded-[6.5px] bg-[#FF7E1B] text-[#FFF] text-[10px] font-bold absolute top-[16px] right-[64px] lg:top-[38px] lg:right-[255px]" >{props.products.length}</div>:
